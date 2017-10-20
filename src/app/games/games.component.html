@@ -1,0 +1,9 @@
+<p>Game list:</p>
+<div>
+    <p *ngIf="dataLoading">Loading...</p>
+    <div *ngIf="!dataLoading">
+        <div *ngFor="let currentGame of gameList">
+            <game-list-detail [gameDetailData]="currentGame"></game-list-detail>
+        </div>
+    </div>
+</div>

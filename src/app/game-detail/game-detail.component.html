@@ -1,0 +1,9 @@
+<div *ngIf="dataReady">
+    <h3>{{gameInfo.names.international}}</h3>
+    <img [src]="gameInfo.assets['cover-small'].uri">
+    <p>Game name: {{gameInfo.names.international}}</p>
+    <p>Player name: {{playerName}}</p>
+    <p>Best time: {{runTime}}</p>
+    <button (click)="watchVideo()">Watch video!</button>
+</div>
+<router-outlet></router-outlet>
