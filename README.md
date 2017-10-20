@@ -1,6 +1,6 @@
-## angular2-seed
+## 21Buttons Tech Test
 
-A simple starter project demonstrating the basic concepts of Angular 2.
+A Tech Test for 21Buttons using angular2-seed as a base for the project.
 
 
 ### Usage
